@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T09:06:04.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="26aLYUz1J1dsip_Vffg7" type="github"><diagram id="tpe7PRas9Uuu3qH7nv-h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-22T20:29:27.281Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OimEmfN97YW4yZKlMrrs" version="20.8.10" type="github">
+  <diagram id="tpe7PRas9Uuu3qH7nv-h" name="Page-1">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-1" value="ORIGIN REPO: NATS&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="YgWwrNgD0VgGu1-BNbci-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="70" as="sourcePoint" />
+            <mxPoint x="100" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-2" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="40" y="190" as="sourcePoint" />
+            <mxPoint x="710" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-3" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="40" y="320" as="sourcePoint" />
+            <mxPoint x="710" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-4" value="NATS GITHUB Account&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-5" value="ACCELLERAN GITHUB Account&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-6" value="FORK REPO: NATS&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="39" y="350" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-11" value="Master Branch&amp;nbsp;&lt;br&gt;&lt;br&gt;NATS integration Branch&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="YgWwrNgD0VgGu1-BNbci-6">
+          <mxGeometry x="30" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-7" value="&amp;nbsp;REPO:&amp;nbsp; HELM-CHARTS&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="350" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-14" value="Master Branch : submodule NATS&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="YgWwrNgD0VgGu1-BNbci-7">
+          <mxGeometry x="50" y="60" width="167" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-20" value="&lt;b&gt;gh-pages branch : NATS Package&amp;nbsp;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YgWwrNgD0VgGu1-BNbci-7">
+          <mxGeometry x="5" y="30" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="YgWwrNgD0VgGu1-BNbci-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="60" as="sourcePoint" />
+            <mxPoint x="30" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-8" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="40" y="490" as="sourcePoint" />
+            <mxPoint x="710" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-9" value="Local Dev. Environment&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="541" y="490" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-10" value="&amp;nbsp;REPO:&amp;nbsp; HELM-CHARTS&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="540" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="460" as="sourcePoint" />
+            <mxPoint x="450" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-13" value="Clone Master Branch&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="460" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-17" value="Fork" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="140" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="256" y="425" as="sourcePoint" />
+            <mxPoint x="346" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-19" value="Include itegration branch into Mastrer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="260" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YgWwrNgD0VgGu1-BNbci-22" value="Update Helm Pacages from gp-page branch&lt;br&gt;GitHub Pages&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="85" y="500" width="340" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
